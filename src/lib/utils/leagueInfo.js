@@ -7,25 +7,11 @@ export const enableBlog = false; // requires VITE_CONTENTFUL_ACCESS_TOKEN and VI
 
 /*   STEP 2   */
 export const homepageText = `
-  <p>Welcome, sports fans, to La Ligma, the ultimate destination for fantasy football enthusiasts!</p>
-  <p>Whether you're a seasoned veteran or a newcomer to the game, La Ligma offers the perfect</p>
-  <p>platform to showcase your skills, strategy, and knowledge of the game.</p>
-  <p>But be warned, the road to glory is not for the faint-hearted. The competition here is fierce, </p>
-  <p>and the battles are won and lost in the blink of an eye. The stakes are high, and the rewards</p>
-  <p>are even higher.</p>
-  <p></p>
-  <p>And then there's Kayvaan. Ah, Kayvaan. The man, the myth, the legend. His eternal struggle</p>
-  <p>to defeat Joe has become the stuff of legend around these parts. Some say he's cursed,</p>
-  <p>others say he's simply unlucky. But one thing is for sure: when Kayvaan is your opponent,</p>
-  <p>anything can happen.</p>
-  <p></p>
-  <p>So whether you're here to dominate your league, make new friends, or simply watch</p>
-  <p>Kayvaan's latest attempt to slay the Joe-shaped dragon, La Ligma is the place for you. Get</p>
-  <p>ready for an epic journey filled with ups and downs, twists and turns, and unforgettable</p>
-  <p>moments that will have you on the edge of your seat.</p>
-  <p></p>
-  <p>Welcome to La Ligma, where the fantasy football dreams are big and the victories are even</p>
-  <p>bigger. Let the games begin!</p>
+  <p>Welcome, sports fans, to La Ligma, the ultimate destination for fantasy football enthusiasts! Whether you're a seasoned veteran or a newcomer to the game, La Ligma offers the perfect platform to showcase your skills, strategy, and knowledge of the game.</p>
+  <p>But be warned, the road to glory is not for the faint-hearted. The competition here is fierce, and the battles are won and lost in the blink of an eye. The stakes are high, and the rewards are even higher.</p>
+  <p>And then there's Kayvaan. Ah, Kayvaan. The man, the myth, the legend. His eternal struggle to defeat Joe has become the stuff of legend around these parts. Some say he's cursed, others say he's simply unlucky. But one thing is for sure: when Kayvaan is on the field, anything can happen.</p>
+  <p>So whether you're here to dominate your league, make new friends, or simply watch Kayvaan's latest attempt to slay the Joe-shaped dragon, La Ligma is the place for you. Get ready for an epic journey filled with ups and downs, twists and turns, and unforgettable moments that will have you on the edge of your seat.</p>
+  <p>Welcome to La Ligma, where the fantasy football dreams are big and the victories are even bigger. Let the games begin!</p>
   
 `;
 
