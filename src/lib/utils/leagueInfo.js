@@ -32,7 +32,7 @@ export const managers = [
       "tookOver": 2020, // (DEPRECATED! You don't need to use this anymore) (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "San Luis Obispo, CA", // (optional)
       "bio": "Sebastian Padua, or more affectionately known as, 'bastiboo' is a founding member of La Ligma. His history with the league predates sleeper. He is a third degree black belt in jiu jitsu but still can't beat Joseph in a fight. Has two cats and dislikes ketchup.",
-      "photo": "/managers/bastiboo.jpg", // square ratio recommended (no larger than 500x500)
+      "photo": "/managers/bastiboo.png", // square ratio recommended (no larger than 500x500)
       "fantasyStart": null, // (optional) when did the manager start playing fantasy football
       "favoriteTeam": "ne", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
       "mode": "Dynasty", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
