@@ -48,6 +48,29 @@ export const managers = [
       "tradingScale": 10, // 1 - 10 (optional)
       "preferredContact": "Text",  // (optional) 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
+   {
+      "roster": 4,  // (DEPRECATED! Don't use this anymore) ID of the roster that the manager manages (look at the order of the power rankings graph)
+      "managerID": "944523156285390848",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
+      "name": "Champ",
+      "tookOver": 2020, // (DEPRECATED! You don't need to use this anymore) (optional) used if a manager took over a team, delete this line or change to null otherwise
+      "location": "Fresno, CA", // (optional)
+      "bio": "Joe 'Champ' Bianchi is a true legend in the world of fantasy football. With an impressive track record of championship wins, he has established himself as one of the greatest managers of all time. But it's not just his success on the field that sets him apart - it's his unwavering passion for the game and his unrelenting drive to win. Joe's love for beating Kayvaan is well-known among fantasy football circles. Their epic rivalry has become the stuff of legend, with each matchup more intense than the last. But despite Kayvaan's best efforts, Joe always seems to come out on top. His strategic thinking and meticulous planning have made him a force to be reckoned with, and his ability to read the game like a book is second to none. But Joe's success is not just a product of his talent - it's a product of his dedication and hard work. He spends countless hours analyzing stats, poring over game footage, and researching players to ensure that he always has the upper hand. And his relentless pursuit of victory has earned him the respect and admiration of his peers. In short, Champ is a true champion in every sense of the word. His love for the game, his skill on the field, and his unyielding determination to win have made him an icon in the world of fantasy football. And as long as he's around, his opponents - including poor Kayvaan - had better watch out.",
+      "photo": "/managers/joe.png", // square ratio recommended (no larger than 500x500)
+      "fantasyStart": null, // (optional) when did the manager start playing fantasy football
+      "favoriteTeam": "car", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
+      "mode": "Dynasty", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
+      "rival": {
+        name: "Kayvaan", // Can be anything (usually your rival's name)
+        link: 6, // manager array number within this array, or null to link back to all managers page
+        image: "/managers/rival.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
+      },
+      "favoritePlayer": 1426, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
+      "valuePosition": "WR", // (optional) Favorite position (QB, WR, RB, TE, etc.)
+      "rookieOrVets": "Rookies", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
+      "philosophy": "Be better.", // (optional)
+      "tradingScale": 10, // 1 - 10 (optional)
+      "preferredContact": "Text",  // (optional) 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
+    },
   ]
   
   
