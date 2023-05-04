@@ -140,6 +140,29 @@ export const managers = [
       "tradingScale": 10, // 1 - 10 (optional)
       "preferredContact": "Text",  // (optional) 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
+    {
+      "roster": 6,  // (DEPRECATED! Don't use this anymore) ID of the roster that the manager manages (look at the order of the power rankings graph)
+      "managerID": "463940473484996608",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
+      "name": "Shabes",
+      "tookOver": 2020, // (DEPRECATED! You don't need to use this anymore) (optional) used if a manager took over a team, delete this line or change to null otherwise
+      "location": "Chico, CA", // (optional)
+      "bio": "Shabes is a gritty fantasy football manager who always believes he has a chance, even when the odds are stacked against him. He's the kind of person who never gives up, who keeps pushing forward no matter how difficult the situation may seem. And while he may not always come out on top, his resolve and determination are unmatched. One of Shabes' greatest strengths as a fantasy football manager is his ability to sell his team to others. He's a master of salesmanship, able to make even the most mediocre players sound like superstars. He knows how to build excitement and momentum around his team, and he's always looking for ways to get his opponents off balance. But it's not just his salesmanship that makes Shabes a force to be reckoned with. He's also a strategic genius, always thinking several moves ahead and making bold, game-changing decisions. He knows how to read his opponents and exploit their weaknesses, and he's never afraid to take risks when the situation calls for it.And while Shabes may not always win, he's never one to give up. He's always looking for ways to improve his team and his own skills, and he's constantly pushing himself to be better. So don't count him out just yet - with his resolve, determination, and salesmanship, he's got what it takes to go all the way.",
+      "photo": "/managers/shabes.png", // square ratio recommended (no larger than 500x500)
+      "fantasyStart": null, // (optional) when did the manager start playing fantasy football
+      "favoriteTeam": null, // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
+      "mode": "Dynasty", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
+      "rival": {
+        name: "Fantasy Football", // Can be anything (usually your rival's name)
+        link: 6, // manager array number within this array, or null to link back to all managers page
+        image: "/managers/rival.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
+      },
+      "favoritePlayer": 1426, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
+      "valuePosition": "WR", // (optional) Favorite position (QB, WR, RB, TE, etc.)
+      "rookieOrVets": "Rookies", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
+      "philosophy": "Nobody wants a thousand plastic meatballs.", // (optional)
+      "tradingScale": 10, // 1 - 10 (optional)
+      "preferredContact": "Text",  // (optional) 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
+    },
   ]
   
   
