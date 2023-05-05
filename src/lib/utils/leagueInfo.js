@@ -168,9 +168,78 @@ export const managers = [
       "managerID": "404377896925282304",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
       "name": "Joseph Luna",
       "tookOver": 2020, // (DEPRECATED! You don't need to use this anymore) (optional) used if a manager took over a team, delete this line or change to null otherwise
-      "location": "MDO, Los Osos, or Morro Bay. Some $#!T like that.", // (optional)
+      "location": "Central Coast, CA", // (optional)
       "bio": "Joseph has been a diehard Detroit Lions fan his entire life, so it's no surprise that his love for football extends to the world of fantasy. He's been playing in the league for years, but he's always been stuck in the basement of teams, never quite able to break out of the bottom ranks. But this year, he's feeling something different. He's got a fire burning inside of him. Armed with the first overall draft pick, Joseph is poised to make a drive to finally break out of the shadows and become a champion. He's ready to take on the challenge, and he knows he has what it takes to come out on top. He's got the power to choose the best player in the draft, and he's not going to waste it. Look out world, here he comes.",
       "photo": "/managers/joseph.png", // square ratio recommended (no larger than 500x500)
+      "fantasyStart": null, // (optional) when did the manager start playing fantasy football
+      "favoriteTeam": null, // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
+      "mode": "Dynasty", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
+      "rival": {
+        name: "Shabes", // Can be anything (usually your rival's name)
+        link: 6, // manager array number within this array, or null to link back to all managers page
+        image: "/managers/rival.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
+      },
+      "favoritePlayer": 1426, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
+      "valuePosition": "WR", // (optional) Favorite position (QB, WR, RB, TE, etc.)
+      "rookieOrVets": "Rookies", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
+      "philosophy": "Oh, you think darkness is your ally. But you merely adopted the dark; I was born in it, molded by it. I didn't see the light until I was already a man, by then I had already accepted the truth. Jared Goff is my quarterback!", // (optional)
+      "tradingScale": 10, // 1 - 10 (optional)
+      "preferredContact": "Text",  // (optional) 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
+    },
+    {
+      "roster": 8,  // (DEPRECATED! Don't use this anymore) ID of the roster that the manager manages (look at the order of the power rankings graph)
+      "managerID": "404377896925282304",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
+      "name": "Kayvaan Ghovanloo",
+      "tookOver": 2020, // (DEPRECATED! You don't need to use this anymore) (optional) used if a manager took over a team, delete this line or change to null otherwise
+      "location": "San Fransisco, CA", // (optional)
+      "bio": "Joseph has been a diehard Detroit Lions fan his entire life, so it's no surprise that his love for football extends to the world of fantasy. He's been playing in the league for years, but he's always been stuck in the basement of teams, never quite able to break out of the bottom ranks. But this year, he's feeling something different. He's got a fire burning inside of him. Armed with the first overall draft pick, Joseph is poised to make a drive to finally break out of the shadows and become a champion. He's ready to take on the challenge, and he knows he has what it takes to come out on top. He's got the power to choose the best player in the draft, and he's not going to waste it. Look out world, here he comes.",
+      "photo": "/managers/kayvaan.png", // square ratio recommended (no larger than 500x500)
+      "fantasyStart": null, // (optional) when did the manager start playing fantasy football
+      "favoriteTeam": null, // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
+      "mode": "Dynasty", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
+      "rival": {
+        name: "Champ", // Can be anything (usually your rival's name)
+        link: 6, // manager array number within this array, or null to link back to all managers page
+        image: "/managers/rival.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
+      },
+      "favoritePlayer": 1426, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
+      "valuePosition": "WR", // (optional) Favorite position (QB, WR, RB, TE, etc.)
+      "rookieOrVets": "Rookies", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
+      "philosophy": "My four quarters is worth $5.", // (optional)
+      "tradingScale": 10, // 1 - 10 (optional)
+      "preferredContact": "Text",  // (optional) 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
+    },
+    {
+      "roster": 9,  // (DEPRECATED! Don't use this anymore) ID of the roster that the manager manages (look at the order of the power rankings graph)
+      "managerID": "404377896925282304",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
+      "name": "Timothy Alexis Hughes Christopher Marie DeMartimprey",
+      "tookOver": 2020, // (DEPRECATED! You don't need to use this anymore) (optional) used if a manager took over a team, delete this line or change to null otherwise
+      "location": "Central Coast, CA", // (optional)
+      "bio": "Joseph has been a diehard Detroit Lions fan his entire life, so it's no surprise that his love for football extends to the world of fantasy. He's been playing in the league for years, but he's always been stuck in the basement of teams, never quite able to break out of the bottom ranks. But this year, he's feeling something different. He's got a fire burning inside of him. Armed with the first overall draft pick, Joseph is poised to make a drive to finally break out of the shadows and become a champion. He's ready to take on the challenge, and he knows he has what it takes to come out on top. He's got the power to choose the best player in the draft, and he's not going to waste it. Look out world, here he comes.",
+      "photo": "/managers/tim.png", // square ratio recommended (no larger than 500x500)
+      "fantasyStart": null, // (optional) when did the manager start playing fantasy football
+      "favoriteTeam": null, // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
+      "mode": "Dynasty", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
+      "rival": {
+        name: "Shabes", // Can be anything (usually your rival's name)
+        link: 6, // manager array number within this array, or null to link back to all managers page
+        image: "/managers/rival.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
+      },
+      "favoritePlayer": 1426, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
+      "valuePosition": "WR", // (optional) Favorite position (QB, WR, RB, TE, etc.)
+      "rookieOrVets": "Rookies", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
+      "philosophy": "Oh, you think darkness is your ally. But you merely adopted the dark; I was born in it, molded by it. I didn't see the light until I was already a man, by then I had already accepted the truth. Jared Goff is my quarterback!", // (optional)
+      "tradingScale": 10, // 1 - 10 (optional)
+      "preferredContact": "Text",  // (optional) 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
+    },
+    {
+      "roster": 10,  // (DEPRECATED! Don't use this anymore) ID of the roster that the manager manages (look at the order of the power rankings graph)
+      "managerID": "404377896925282304",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
+      "name": "MJ Padua",
+      "tookOver": 2020, // (DEPRECATED! You don't need to use this anymore) (optional) used if a manager took over a team, delete this line or change to null otherwise
+      "location": "Tucson, AZ", // (optional)
+      "bio": "Joseph has been a diehard Detroit Lions fan his entire life, so it's no surprise that his love for football extends to the world of fantasy. He's been playing in the league for years, but he's always been stuck in the basement of teams, never quite able to break out of the bottom ranks. But this year, he's feeling something different. He's got a fire burning inside of him. Armed with the first overall draft pick, Joseph is poised to make a drive to finally break out of the shadows and become a champion. He's ready to take on the challenge, and he knows he has what it takes to come out on top. He's got the power to choose the best player in the draft, and he's not going to waste it. Look out world, here he comes.",
+      "photo": "/managers/mj.png", // square ratio recommended (no larger than 500x500)
       "fantasyStart": null, // (optional) when did the manager start playing fantasy football
       "favoriteTeam": null, // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
       "mode": "Dynasty", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
