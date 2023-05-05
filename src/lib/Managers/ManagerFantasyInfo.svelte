@@ -197,7 +197,7 @@
     {#if viewManager.valuePosition}
         <div class="infoSlot">
             <div class="infoLabel">
-                Favorite Fantasy Asset
+                Favorite Position
             </div>
             <div class="infoIcon {viewManager.valuePosition}">
                 <span class="valuePosition">{viewManager.valuePosition}</span>
@@ -208,7 +208,7 @@
         <!-- Trading Scale -->
         <div class="infoSlot">
             <div class="infoLabel">
-                Trade Propensity
+                Desire to Trade
             </div>
             <div class="infoIcon">
                 <span class="tradingScale">{viewManager.tradingScale}</span>
@@ -236,7 +236,7 @@
     {#if viewManager.mode}
         <div class="infoSlot">
             <div class="infoLabel">
-                Win Now or Rebuild?
+                Team Status
             </div>
             <div class="infoIcon">
                 <img class="rebuildOrWin" src="/{viewManager.mode.replace(' ', '%20')}.png" alt="win now or rebuild"/>
