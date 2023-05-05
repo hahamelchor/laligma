@@ -43,7 +43,7 @@ export const managers = [
       },
       "favoritePlayer": 5816, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
       "valuePosition": "WR", // (optional) Favorite position (QB, WR, RB, TE, etc.)
-      "rookieOrVets": "rookies", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
+      "rookieOrVets": "Veterans", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
       "philosophy": "Will sell left nut for a Niners SB win.", // (optional)
       "tradingScale": 6, // 1 - 10 (optional)
       "preferredContact": "Text",  // (optional) 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
@@ -61,13 +61,13 @@ export const managers = [
       "mode": "Rebuild", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
       "rival": {
         name: "Himself", // Can be anything (usually your rival's name)
-        link: 6, // manager array number within this array, or null to link back to all managers page
-        image: "/managers/rival.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
+        link: "1", // manager array number within this array, or null to link back to all managers page
+        image: "/managers/bastiboo.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
       },
-      "favoritePlayer": 1426, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
+      "favoritePlayer": 167, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
       "valuePosition": "WR", // (optional) Favorite position (QB, WR, RB, TE, etc.)
-      "rookieOrVets": "Rookies", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
-      "philosophy": "If you can't beat them in fantasy, make damn sure you can take them down in jiu jitsu.", // (optional)
+      "rookieOrVets": "Veterans", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
+      "philosophy": "If you can't beat them in fantasy, make damn sure you can take them down with jiu jitsu.", // (optional)
       "tradingScale": 8, // 1 - 10 (optional)
       "preferredContact": "Email",  // (optional) 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
@@ -83,12 +83,12 @@ export const managers = [
       "favoriteTeam": "car", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
       "mode": "Dynasty", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
       "rival": {
-        name: "Kayvaan", // Can be anything (usually your rival's name)
-        link: 6, // manager array number within this array, or null to link back to all managers page
-        image: "/managers/rival.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
+        name: "Jimmy", // Can be anything (usually your rival's name)
+        link: "4", // manager array number within this array, or null to link back to all managers page
+        image: "/managers/jimmy.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
       },
-      "favoritePlayer": 1426, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
-      "valuePosition": "WR", // (optional) Favorite position (QB, WR, RB, TE, etc.)
+      "favoritePlayer": 954, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
+      "valuePosition": "RB", // (optional) Favorite position (QB, WR, RB, TE, etc.)
       "rookieOrVets": "Rookies", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
       "philosophy": "Be better.", // (optional)
       "tradingScale": 5, // 1 - 10 (optional)
@@ -106,13 +106,13 @@ export const managers = [
       "favoriteTeam": "ind", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
       "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
       "rival": {
-        name: "A Lack of Sauce", // Can be anything (usually your rival's name)
-        link: 6, // manager array number within this array, or null to link back to all managers page
-        image: "/managers/rival.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
+        name: "Everyone", // Can be anything (usually your rival's name)
+        link: null, // manager array number within this array, or null to link back to all managers page
+        image: "/managers/everyone.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
       },
-      "favoritePlayer": 1426, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
-      "valuePosition": "WR", // (optional) Favorite position (QB, WR, RB, TE, etc.)
-      "rookieOrVets": "Rookies", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
+      "favoritePlayer": 536, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
+      "valuePosition": "RB", // (optional) Favorite position (QB, WR, RB, TE, etc.)
+      "rookieOrVets": "Veterans", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
       "philosophy": "Look good. Feel good. Play good. But mostly, look good.", // (optional)
       "tradingScale": 5, // 1 - 10 (optional)
       "preferredContact": "Text",  // (optional) 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
@@ -130,14 +130,14 @@ export const managers = [
       "mode": "Dynasty", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
       "rival": {
         name: "Joe", // Can be anything (usually your rival's name)
-        link: 5, // manager array number within this array, or null to link back to all managers page
-        image: "/managers/rival.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
+        link: "2", // manager array number within this array, or null to link back to all managers page
+        image: "/managers/joe.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
       },
       "favoritePlayer": 1426, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
       "valuePosition": "WR", // (optional) Favorite position (QB, WR, RB, TE, etc.)
-      "rookieOrVets": "Rookies", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
+      "rookieOrVets": "Sophomores", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
       "philosophy": "Nobody wants a thousand plastic meatballs.", // (optional)
-      "tradingScale": 10, // 1 - 10 (optional)
+      "tradingScale": 6, // 1 - 10 (optional)
       "preferredContact": "Text",  // (optional) 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
     {
@@ -152,14 +152,14 @@ export const managers = [
       "favoriteTeam": null, // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
       "mode": "Rebuild", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
       "rival": {
-        name: "Fantasy Football", // Can be anything (usually your rival's name)
-        link: 6, // manager array number within this array, or null to link back to all managers page
-        image: "/managers/rival.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
+        name: "Everyone", // Can be anything (usually your rival's name)
+        link: null, // manager array number within this array, or null to link back to all managers page
+        image: "/managers/everyone.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
       },
-      "favoritePlayer": 1426, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
-      "valuePosition": "WR", // (optional) Favorite position (QB, WR, RB, TE, etc.)
-      "rookieOrVets": "Rookies", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
-      "philosophy": "Nobody wants a thousand plastic meatballs.", // (optional)
+      "favoritePlayer": 6955, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
+      "valuePosition": "RB", // (optional) Favorite position (QB, WR, RB, TE, etc.)
+      "rookieOrVets": "Veterans", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
+      "philosophy": "You gotta pay the cost to be the boss.", // (optional)
       "tradingScale": 7, // 1 - 10 (optional)
       "preferredContact": "Carrier Pigeon",  // (optional) 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
@@ -169,20 +169,20 @@ export const managers = [
       "name": "Joseph Luna",
       "tookOver": 2020, // (DEPRECATED! You don't need to use this anymore) (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Central Coast, CA", // (optional)
-      "bio": "Joseph has been a diehard Detroit Lions fan his entire life, so it's no surprise that his love for football extends to the world of fantasy. He's been playing in the league for years, but he's always been stuck in the basement of teams, never quite able to break out of the bottom ranks. But this year, he's feeling something different. He's got a fire burning inside of him. Armed with the first overall draft pick, Joseph is poised to make a drive to finally break out of the shadows and become a champion. He's ready to take on the challenge, and he knows he has what it takes to come out on top. He's got the power to choose the best player in the draft, and he's not going to waste it. Look out world, here he comes.",
+      "bio": "Joseph has been a diehard Detroit Lions fan his entire life, so it's no surprise that his love for football extends to the world of fantasy. He's been playing in the league for years, but he's always been stuck in the basement of teams, never quite able to break out of the bottom ranks. But this year, he's feeling something different. He's got a fire burning inside of him. Armed with the first overall draft pick, Joseph is poised to make a drive to finally break out of the shadows and become a champion. Perhaps he may even get his first win against Tim. He's ready to take on the challenge, and he knows he has what it takes to come out on top. He's got the power to choose the best player in the draft, and he's not going to waste it. Look out world, here he comes.",
       "photo": "/managers/joseph.png", // square ratio recommended (no larger than 500x500)
       "fantasyStart": null, // (optional) when did the manager start playing fantasy football
-      "favoriteTeam": null, // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
+      "favoriteTeam": "det", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
       "mode": "Rebuild", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
       "rival": {
-        name: "Shabes", // Can be anything (usually your rival's name)
-        link: 6, // manager array number within this array, or null to link back to all managers page
-        image: "/managers/rival.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
+        name: "TAHCMD", // Can be anything (usually your rival's name)
+        link: "8", // manager array number within this array, or null to link back to all managers page
+        image: "/managers/tim.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
       },
-      "favoritePlayer": 1426, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
-      "valuePosition": "WR", // (optional) Favorite position (QB, WR, RB, TE, etc.)
+      "favoritePlayer": 4149, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
+      "valuePosition": "RB", // (optional) Favorite position (QB, WR, RB, TE, etc.)
       "rookieOrVets": "Rookies", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
-      "philosophy": "Oh, you think darkness is your ally. But you merely adopted the dark; I was born in it, molded by it. I didn't see the light until I was already a man, by then I had already accepted the truth. Jared Goff is my quarterback!", // (optional)
+      "philosophy": "Oh, you think darkness is your ally. But you merely adopted the dark; I was born in it, molded by it. I didn't see the light until I was already a man, by then I had already accepted the truth. Jared Goff is my quarterback.", // (optional)
       "tradingScale": 2, // 1 - 10 (optional)
       "preferredContact": "Discord",  // (optional) 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
@@ -192,43 +192,43 @@ export const managers = [
       "name": "Kayvaan Ghovanloo",
       "tookOver": 2020, // (DEPRECATED! You don't need to use this anymore) (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "San Fransisco, CA", // (optional)
-      "bio": "Joseph has been a diehard Detroit Lions fan his entire life, so it's no surprise that his love for football extends to the world of fantasy. He's been playing in the league for years, but he's always been stuck in the basement of teams, never quite able to break out of the bottom ranks. But this year, he's feeling something different. He's got a fire burning inside of him. Armed with the first overall draft pick, Joseph is poised to make a drive to finally break out of the shadows and become a champion. He's ready to take on the challenge, and he knows he has what it takes to come out on top. He's got the power to choose the best player in the draft, and he's not going to waste it. Look out world, here he comes.",
+      "bio": "Kayvaan has been playing fantasy football for years, but he's always struggled to build a championship team. He's been stuck in the top 2-3, never quite able to put the final nail in the coffin. Specifically specking, despite his best efforts, he's never been able to dethrone his arch-nemesis, Joe. But this year, things are looking different. Kayvaan's team is filled with seasoned veterans who have been in the league for years. Some would say they're past their prime, but Kayvaan knows that they still have a lot of fight left in them. He's spent countless hours studying their stats and strategizing his draft picks, determined to finally build a team that can go toe-to-toe with the best of them. Kayvaan knows that he's up against some tough competition, but he's feeling confident. He's got a fire burning inside of him, a drive to finally prove himself and take down Joe. He's worked hard to build a team that's built to win, and he's not going to let anything stand in his way. As the season kicks off, Kayvaan can feel the excitement building. He's watching his team perform on the field, and he knows that they've got what it takes to compete with the best of them. He's been waiting for this moment for years, and he's not going to let it slip away. This year may finally be the year that Kayvaan breaks through and becomes a champion. He's got the talent, the experience, and the drive to make it happen. And he knows that he's not alone – his team is behind him every step of the way, ready to take on any challenge that comes their way. So watch out, Joe – Kayvaan is coming for you, and this year, he's not going to be stopped.",
       "photo": "/managers/kayvaan.png", // square ratio recommended (no larger than 500x500)
       "fantasyStart": null, // (optional) when did the manager start playing fantasy football
       "favoriteTeam": null, // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
       "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
       "rival": {
-        name: "Champ", // Can be anything (usually your rival's name)
-        link: 6, // manager array number within this array, or null to link back to all managers page
-        image: "/managers/rival.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
+        name: "Joe", // Can be anything (usually your rival's name)
+        link: "2", // manager array number within this array, or null to link back to all managers page
+        image: "/managers/joe.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
       },
-      "favoritePlayer": 1426, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
+      "favoritePlayer": 2309, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
       "valuePosition": "WR", // (optional) Favorite position (QB, WR, RB, TE, etc.)
-      "rookieOrVets": "Rookies", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
-      "philosophy": "My four quarters is worth $5.", // (optional)
+      "rookieOrVets": "Veterans", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
+      "philosophy": "My four quarters is worth your $5.", // (optional)
       "tradingScale": 4, // 1 - 10 (optional)
       "preferredContact": "Text",  // (optional) 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
     {
       "roster": 9,  // (DEPRECATED! Don't use this anymore) ID of the roster that the manager manages (look at the order of the power rankings graph)
       "managerID": "404707379788173312",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
-      "name": "Timothy Alexis Hughes Christopher Marie DeMartimprey",
+      "name": "Tim DeMartimprey",
       "tookOver": 2020, // (DEPRECATED! You don't need to use this anymore) (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Central Coast, CA", // (optional)
-      "bio": "Joseph has been a diehard Detroit Lions fan his entire life, so it's no surprise that his love for football extends to the world of fantasy. He's been playing in the league for years, but he's always been stuck in the basement of teams, never quite able to break out of the bottom ranks. But this year, he's feeling something different. He's got a fire burning inside of him. Armed with the first overall draft pick, Joseph is poised to make a drive to finally break out of the shadows and become a champion. He's ready to take on the challenge, and he knows he has what it takes to come out on top. He's got the power to choose the best player in the draft, and he's not going to waste it. Look out world, here he comes.",
+      "bio": "Tim is a savvy fantasy football manager who is always considered a dark horse contender but is looking to break through and make a name for himself in the league. He's been playing for a few years now and his record is decent, but he knows that he has the potential to be great. One of Tim's biggest strengths is his ability to make savvy trades. He always seems to find a way to get the players he wants while giving up as little as possible in return. He's not afraid to take risks, but he's always calculated and methodical in his approach. His fellow managers know that they need to be careful when negotiating with Tim because he's always thinking a few steps ahead. Despite his successes, Tim is always hungry for more. He knows that he hasn't reached his full potential yet and is constantly looking for ways to improve. He's always reading up on the latest news and trends in the fantasy football world and is never satisfied with his current roster. His fellow managers respect his dedication and know that he's always a threat to make a deep playoff run. In short, Tim is a formidable opponent in the league who is always looking to improve and outsmart his competition. With his savvy trading skills, well-rounded team, and relentless drive, he's poised to break into the top echelon of fantasy football managers and make a name for himself as a true contender.",
       "photo": "/managers/tim.png", // square ratio recommended (no larger than 500x500)
       "fantasyStart": null, // (optional) when did the manager start playing fantasy football
       "favoriteTeam": null, // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
       "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
       "rival": {
         name: "Shabes", // Can be anything (usually your rival's name)
-        link: 6, // manager array number within this array, or null to link back to all managers page
+        link: "5", // manager array number within this array, or null to link back to all managers page
         image: "/managers/shabes.png", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
       },
-      "favoritePlayer": 1426, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
-      "valuePosition": "WR", // (optional) Favorite position (QB, WR, RB, TE, etc.)
-      "rookieOrVets": "Rookies", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
-      "philosophy": "Oh, you think darkness is your ally. But you merely adopted the dark; I was born in it, molded by it. I didn't see the light until I was already a man, by then I had already accepted the truth. Jared Goff is my quarterback!", // (optional)
+      "favoritePlayer": 5850, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
+      "valuePosition": "RB", // (optional) Favorite position (QB, WR, RB, TE, etc.)
+      "rookieOrVets": "Veterans", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
+      "philosophy": "That's 'Sir Timothy Alexis Hughes Christopher Marie DeMartimprey' to you, you imbecile.", // (optional)
       "tradingScale": 2, // 1 - 10 (optional)
       "preferredContact": "Sleeper",  // (optional) 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
@@ -238,20 +238,20 @@ export const managers = [
       "name": "MJ Padua",
       "tookOver": 2020, // (DEPRECATED! You don't need to use this anymore) (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Tucson, AZ", // (optional)
-      "bio": "Joseph has been a diehard Detroit Lions fan his entire life, so it's no surprise that his love for football extends to the world of fantasy. He's been playing in the league for years, but he's always been stuck in the basement of teams, never quite able to break out of the bottom ranks. But this year, he's feeling something different. He's got a fire burning inside of him. Armed with the first overall draft pick, Joseph is poised to make a drive to finally break out of the shadows and become a champion. He's ready to take on the challenge, and he knows he has what it takes to come out on top. He's got the power to choose the best player in the draft, and he's not going to waste it. Look out world, here he comes.",
+      "bio": "Mj is a once-great manager who has fallen from grace. But don't be fooled, MJ is not one to be underestimated. He has the been a part of the most trades in the league and is always willing to pull the trigger if there's a chance it moves the needle forward for his team. He's looking to get back to the top of the heap, and he's got the determination to do it. MJ's downfall came from a few unwise trades, but he's learned from his mistakes and is ready to take on the league once again. He's spent countless hours analyzing player stats and keeping an eye on the waiver wire, always looking for that next big trade. And with his years of experience, there's no doubt that he has a few tricks up his sleeve. Some may see MJ as a has-been, but that couldn't be further from the truth. He's always been a contender, and he's got the drive to prove it. He's got a shrewd mind for the game, always staying one step ahead of his opponents. His determination and passion for the sport have kept him in the game, and this year he's looking to make his comeback. The league should watch out for MJ, as he's a dark horse with the potential to take the championship. He's got the skill, the knowledge, and the willingness to make trades to take his team to the top. And who knows, maybe this year he'll make the trades that will finally bring him back to his former glory.",
       "photo": "/managers/mj.png", // square ratio recommended (no larger than 500x500)
       "fantasyStart": null, // (optional) when did the manager start playing fantasy football
-      "favoriteTeam": null, // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
+      "favoriteTeam": "phi", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
       "mode": "Rebuild", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
       "rival": {
         name: "Jimmy", // Can be anything (usually your rival's name)
-        link: 5, // manager array number within this array, or null to link back to all managers page
+        link: "4", // manager array number within this array, or null to link back to all managers page
         image: "/managers/jimmy.png", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
       },
       "favoritePlayer": 3161, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
       "valuePosition": "WR", // (optional) Favorite position (QB, WR, RB, TE, etc.)
-      "rookieOrVets": "Rookies", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
-      "philosophy": "Oh, you think darkness is your ally. But you merely adopted the dark; I was born in it, molded by it. I didn't see the light until I was already a man, by then I had already accepted the truth. Jared Goff is my quarterback!", // (optional)
+      "rookieOrVets": "Sophomores", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
+      "philosophy": "'miChaEL ThoMaS iS a ToP 3 wR aLL tiMe.'", // (optional)
       "tradingScale": 9, // 1 - 10 (optional)
       "preferredContact": "Text",  // (optional) 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
