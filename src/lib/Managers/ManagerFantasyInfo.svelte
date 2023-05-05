@@ -183,7 +183,7 @@
     {#if viewManager.rookieOrVets}
         <div class="infoSlot">
             <div class="infoLabel">
-                Rookie or Vet Preference
+                Build Strategy
             </div>
             <div class="infoIcon">
                 <img class="rookiesOrVets" src="/{viewManager.rookieOrVets}.png" alt="rookie or vet preference"/>
@@ -208,7 +208,7 @@
         <!-- Trading Scale -->
         <div class="infoSlot">
             <div class="infoLabel">
-                Desire to Trade
+                Trade Propensity
             </div>
             <div class="infoIcon">
                 <span class="tradingScale">{viewManager.tradingScale}</span>
